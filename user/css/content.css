@@ -1,0 +1,991 @@
+@font-face
+{
+	font-family:Heroic;
+	src:url('../font/HeroicCondensedBold.ttf');
+}
+
+@font-face
+{
+	font-family:Ar Darling;
+	src:url('../font/ardarling.ttf');
+}
+
+a{text-decoration:none;}
+
+#socialhover
+{
+	display:scroll; 
+	position:fixed; 
+	bottom:200px;
+	left:0px;
+}
+#socialhover a.linkopacity{margin-right: 6.5em; margin-left: -3.5em; transition:margin 0.3s; border:2px }
+#socialhover a.linkopacity:hover{margin-right: 1em; margin-left: 0em;}
+
+#guestbookhover
+{
+	display:scroll; 
+	position:fixed; 
+	bottom:220px;
+	right:0px;
+}
+#guestbookhover a.linkopacity{
+	margin-left: 7.5em; 
+	margin-right: -5.5em; 
+	border:2px; 
+	-o-transition:margin 0.6s; 
+	-ms-transition:margin 0.6s;  
+	-webkit-transition:margin 0.6s;  
+	transition:margin 0.6s;  
+	}
+#guestbookhover a.linkopacity:hover{margin-left: 1em; margin-right: -0.2em;}
+
+/*############################berita.html################################*/
+
+#beritacontent
+{
+	width:100%;
+	height:2000px;
+	background:#fff url('../img/bgdark.jpg');
+	z-index:1;
+}
+
+#wrapperberita
+{
+	background:#ffffff;
+	width:1024px;
+	height:2000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#daftarpost
+{
+	width: 200px;
+	height:1600px;
+	margin-top:20px;
+	padding-left:20px;
+	padding-right:20px;
+	margin-left:20px;
+	border-right:1px solid #999;
+	float:left;
+	font-family:Century Gothic;
+}
+#daftarpost ul{color:#555;}
+#daftarpost ul a{color:##423e3c;}
+#daftarpost ul a:hover{color:#333;}
+.judul01{font-family:Heroic; font-size:40pt; color:#555; margin-bottom:0px;}
+#daftarpost .tile{margin-top:10px; opacity:0.85; transition:margin 0.2s; border-radius: 20px 20px 20px 20px; box-shadow: 0px 0px 5px #3a3a3a;}
+#daftarpost .tile:hover{opacity:1; cursor:pointer;}
+
+.viewmore1 {width:110px; height:20px; padding:10px; background:#d71635;  margin-left:40px; font-weight:bold; opacity:0.9;}
+.viewmore1 a{color:#ffffff;}
+.viewmore1 a:hover{color:#3a3a3a; text-decoration:underline;}
+
+#news_box
+{
+	width:620px;
+	height:1500px;
+	padding: 100 50  0 50;
+	margin-left:20px;
+	float:left;
+	color:#555;
+	font-family:Century Gothic, Arial;
+	font-size:20px;
+	text-align:justify;
+}
+#news_box img{width:100%;}
+
+#newsbox
+{
+	width:720px;
+	height:1600px;
+	padding-top:20px;
+	margin-left:20px;
+	float:left;
+	font-family:Century Gothic, Arial;
+}
+#newsbox ul{list-style-type:none;}
+span.date{font-style:italic;font-size:12pt;color:#7d7d7d;display:block}
+span.tanggalbox{
+	width:80px; 
+	margin-top:20px; 
+	padding-top:20px;
+	text-align:center; 
+	border-bottom:50px solid #bcbabb;
+	color:#fff; 
+	margin-right:20px; 
+	background:#383431; 
+	float:left;
+	opacity:0.95;
+	border-radius:10px 0px 0px 10px;
+	}
+span.tanggalbox:hover{opacity:1; cursor:pointer;}
+.berita-month{font-size:32px;height:32px;line-height:1.2;margin:0;padding:0}
+.berita-year{font-size:24px;height:18px;text-transform:uppercase;margin:0;padding:0}
+h3.judulpost a{font-family:Century Gothic; font-size:18pt; margin-bottom:0; color:#bfbebe;}
+h3.judulpost a:hover{color:#888;}
+li.boxberita{width: 680px; height:200px; float:left; border-bottom:1px dashed #888; margin-bottom:10px; color:#444; font-family:Myriad Web Pro;}
+
+#newspage
+{
+	width: 700px;
+	height:50px;
+	padding-right:20px;
+	margin-right:20px;
+	text-align:right;
+	float:right;
+	font-family:Century Gothic;
+}	
+#newspage a{color:#d71635;}
+#newspage a:hover{color:#3a3a3a; text-decoration:overline;}
+/*################################ end of berita.html ################################*/
+
+
+
+/*################################ tour.html ################################*/
+#tourcontent
+{
+	width:100%;
+	height:2000px;
+	background:#fff url('../img/bgdark.jpg');
+	z-index:1;
+}
+
+#wrappertour
+{
+	background:#ffffff;
+	width:1024px;
+	height:2000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+#tourbox
+{
+	width:720px;
+	height:1600px;
+	margin-left:20px;
+	padding-top:20px;
+	float:left;
+	background:#fff;
+}
+#tourbox ul li{list-style-type:none;}
+
+h2.juduljadwal{width:700px; font-family:Century Gothic; color:#555555; border-bottom:2px solid #888;}
+li.boxjadwallight{
+	width: 660px; 
+	height:100px; 
+	float:left; 
+	padding-top:10px;
+	border-bottom:1px dashed #888; 
+	color:#444; 
+	font-family:Myriad Web Pro;
+	}
+li.boxjadwaldark{
+	width: 660px; 
+	height:100px; 
+	background:#eaeaea;
+	float:left; 
+	padding-top:10px;
+	border-bottom:1px dashed #888; 
+	color:#444; 
+	font-family:Myriad Web Pro;
+	}
+.box-date{
+	width:50px;
+	height:60px;
+	padding:10px;
+	background:#3a3a3a;
+	float:left;
+	}
+.box-date:hover{opacity:0.9; cursor:pointer;}
+.tour-month{font-size:20pt;height:18px;text-transform:uppercase; color:#ffffff;}
+.tour-day{font-size:20pt;height:32px;line-height:2;color:#ffffff;}
+.tour-t4{width:60px; margin-left:80px; margin-top:10px; font-family:HeroicR; font-size:20pt; float:left;}
+.tour-kota{width:80px; margin-left:80px; margin-right: 30px; margin-top:10px; font-family:HeroicR; font-size:20pt; float:left;}
+.tombol-tiket a{ 
+	margin-top:25px;  
+	margin-left:20px; 
+	padding-top:5px;
+	width:60px; 
+	height:25px; 
+	color:#d71635;
+	background:#444444; 
+	font-family:HeroicR, Arabic Typesetting; 
+	font-weight:bold;
+	font-size:18pt; 
+	text-align:center; 
+	float:left;
+	
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-o-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	}
+.tombol-tiket a:hover{background:#d71635; color:#444444;}
+/* ################################ End Of Tour.html ################################ */
+
+
+/*################################ Guestbook.html ################################*/
+#formg{
+	width:800px;
+	height:1000px;
+	font-family:Century Gothic, Arial;
+	text-align:left;
+	padding:50 0 0 20;
+	border-top:20px solid #d71635;
+	border-bottom:10px solid #4a4a4a;
+	}
+#formg ul{list-style-type:none}
+#formg ul li{margin: 20 0 20 0}
+#formg textarea{
+	width:700px;
+	height:200px;
+	}
+	
+#formg input.submit{
+	width:100px;
+	height:40px;
+	background:#3a3a3a;
+	font-size:18px;
+	color:#d71635;
+	border:0;
+	transition:0.3s;
+	border-radius:10px;
+	}
+#form input.submit:hover{background:#bbbbbb; cursor:pointer;}
+/* ################################ End Guestbook.html ################################ */
+
+/* ################################ Audio.html ################################ */
+#audiocontent audio{
+	width:610px;
+	height:50px;
+	padding:0px 0px 25px 0px;
+	background:#d71635;
+
+	}
+
+#player
+{
+	width:610px;
+	height:180px;
+	background:#4a4a4a;
+	text-align:center;
+	color:#fff;
+	font-family:Century Gothic;
+	padding:10 0 0 0;
+	margin:0 0 0 40;
+	
+	border-top:10px solid #d71635;
+}
+#player h2{font-family:Century Gothic, Arial;}
+	
+#audiocontent
+{
+	width:100%;
+	height:2000px;
+	background:#fff url('../img/bgdark.jpg');
+	z-index:1;
+}
+
+#wrapperaudio
+{
+	background:#eaeaea;
+	width:1024px;
+	height:2000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+h2.audiojudul{color:#333; font-family:Ar Darling; font-size:30pt; padding-left:50px;}
+div.audiolist{
+	width:600px; 
+	height:90px; 
+	margin-left:40px;
+	margin-top:10px;
+	padding:10px 0px 0px 10px;
+	background:#999;
+	font-weight:bold;
+	border-bottom:10px solid #d71635;
+	}
+	
+div.audiolist:hover, div.audiolist:hover p{background:#ddd; color:#333; transition:0.5s;}
+h2.judullagu{color:#d71635;font-family: Century Gothic;font-size:16pt; margin:10px 0 0 150px;}
+.tombollagu{float:left; opacity:0.6;margin-left:10px;}
+.tombollagu:hover{opacity:1;}
+.detaillagu{color:#444; background: #ddd; font-family: Century Gothic;font-size:11pt; margin:0px 0 0 150px;}
+.detaillagu a{text-decoration:none; color:#a1041d;}
+.detaillagu2{color:#444; background: #ddd;font-family: Century Gothic;font-size:10pt; margin:0px 0 0 150px;}
+
+h2.albumjudul{color:#333; font-family:Ar Darling; font-size:30pt; padding-right:30px; float:right;}
+#listalbum{
+	width:330px; 
+	height:1500px; 
+	text-align:center;
+	float:right;
+	padding:10px 0px 0px 10px;
+	background: #eaeaea;
+	border-left: 1px solid #777777;
+	}
+#listalbum .tile{margin:10px 0 0 0px; opacity:0.85; border-radius:20px; box-shadow: 0px 0px 5px #3a3a3a;}
+#listalbum .tile:hover{opacity:1; cursor:pointer;}
+#listalbum .viewmore1 {width:150px; height:30px; padding:10px; background:#d71635;  margin-left:80px; font-weight:bold; opacity:0.9; border-radius:0px 0px 10px 10px;}
+#listalbum .viewmore1 a{color:#ffffff; text-decoration:none;}
+#listalbum .viewmore1 a:hover{color:#3a3a3a;}
+
+
+/* Video.html */
+#videocontent
+{
+	width:100%;
+	height:2000px;
+	background:#fff url('../img/bgdark.jpg');
+	z-index:1;
+}
+
+#videoalign{margin-left:auto; margin-right:auto;}
+
+#wrappervideo
+{
+	background:#eaeaea;
+	width:1024px;
+	height:2000px;
+	text-align:left;
+	margin-right: auto;
+	margin-left: auto;
+}
+h2.videojudul{color:#333; font-family:Century Gothic; font-size:30pt; padding-left:50px; text-align:center;}
+#videoplayer{
+	width:1024px;
+	height:560px;
+	background:#4a4a4a;
+	padding-top:50px;
+	text-align:center;
+	border-top: 10px solid #d71635;
+	border-bottom: 10px solid #d71635;
+	}
+
+#wrappervideo video{
+	width:900px; 
+	height:505px; 
+	
+	border:10px solid #ddd;
+	}
+
+.tilevideo{margin:10px 0 0 0px; opacity:0.85; float:left; border-radius: 20px 20px 20px 20px; box-shadow: 0px 0px 5px #3a3a3a;}
+.tilevideo:hover{opacity:1; cursor:pointer;}
+#wrappervideo ul{list-style-type:none; margin:0px;}
+h2.othervideo{width:900px; font-family:Century Gothic; margin:20px auto 10px auto; text-align:center; border-bottom: 2px solid #888;}
+li.boxvideo{
+	width: 900px; 
+	height:240px; 
+	padding:10px 0px 0px 40px;
+	border-bottom:1px dashed #888; 
+	color:#333; 
+	background:#fffff;
+	font-family:Myriad Web Pro;
+	}
+h2.namavideo a{
+	font-family:Century Gothic;
+	color:#d71635;
+	font-size:18pt;
+	margin-left:20px;
+	text-decoration:none;
+	}
+p.desvideo{
+	font-family:Century Gothic;
+	color:#777;
+	font-size:12pt;
+	margin-left:250px;
+	text-decoration:none;
+	}
+/* ################################ End of Auddio.html ################################ */	
+	
+	
+/* ################################ Foto.html ################################ */
+h2.fotojudul{font-family:HeroicR; font-size: 60px; color:#888; border-bottom:2px solid #888; text-align:center; margin-bottom:0;}
+
+#maincontentfoto
+{
+	width:100%;
+	height:2000px;
+	background:#f7f7f7;
+	z-index:1;
+}
+
+#wrapperfoto
+{
+	background:#ffffff;
+	width:1024px;
+	height:2000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#fotocontent{
+	background:#fff;
+	padding-left:30px;
+	width:920px;
+	height:1400px;
+	border-bottom:2px solid #888;
+	margin:0px auto 0px auto;
+	text-align:left; 
+	}
+#fotocontent a{color:#d71635}
+p.fotoset{width:200px; height:320px; text-align:center; font-family:Century Gothic; line-height:50px; float:left; margin:30px 30px 0px 0px;}
+.fototile{ opacity:0.9; border-radius: 10px; box-shadow: 0px 0px 5px #3a3a3a;}
+.fototile:hover{opacity:1; cursor:pointer;}
+
+#pagefoto{
+	padding-top:10px;
+	padding-right:40px;
+	width:910px;
+	height:30px;
+	border-bottom:2px solid #888;
+	margin:0px auto 0px auto;
+	text-align:left; 
+	}
+span.pagefoto{float:right; font-family:Myriad Web Pro; }
+span.pagefoto a{font-weight:bold; color:#d71635;}
+span.pagefoto a:hover{font-weight:bold; color:#555;}
+
+#iklanfoto
+{
+	background:#ffffff;
+	width:945px;
+	height:80px;
+	text-align:center;
+	float:left;
+	margin-top:20px;
+	padding-top:30px;
+	margin-right: auto;
+	margin-left: 40px;
+}
+.iklanimg{padding-left:25px; float:left;}
+
+/* Album.html*/
+h2.judulalbum{color:#333; font-family:Century Gothic; font-size: 60px; color:#888; border-bottom:2px solid #888; text-align:center; margin-bottom:0;}
+#albumcontent
+{
+	width:100%;
+	height:2000px;
+	background:#fff url('../img/bgdark.jpg');
+	z-index:1;
+}
+
+#wrapperalbum
+{
+	background:#ffffff;
+	width:1024px;
+	height:2000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#albumwrap{
+	background:#fff;
+	padding-left:30px;
+	width:920px;
+	height:1400px;
+	border-bottom:2px solid #888;
+	margin:0px auto 0px auto;
+	text-align:left; 
+	}
+#albumwrap ul{list-style-type:none; padding:0;}
+#albumwrap li.left{ width: 400px; margin:0px 0px 50px 0px;  float:left;}
+#albumwrap li.right{ width: 400px; margin:150px 50px 0px 0px;  float:right;}
+h3.albumlist{font-family:Century Gothic; color:#555; text-align:center;}
+p.albumlist{font-family:Century Gothic; color:#555; text-align:justify;}
+img.albumlist{border-bottom: 2px dotted #555;}
+#albumwrap li span.viewmore {width:150px; height:20px; padding:10px; background:#d71635; float:right; font-weight:bold; opacity:0.9;}
+#albumwrap li span.viewmore a{color:#ffffff; text-decoration:none;}
+#albumwrap li span.viewmore a:hover{color:#3a3a3a;}
+/* ################################ End Of Album.html ################################ */
+
+
+/* ################################ Bio.html ################################ */
+h2.judulbio{color:#333; font-family:Century Gothic; font-size: 60px; color:#777; border-bottom:2px solid #888; text-align:center; margin-bottom:20;}
+#biocontent
+{
+	width:100%;
+	height:2650px;
+	background:#fff url('../img/bgdark.jpg');
+	z-index:1;
+}
+
+#wrapperbio
+{
+	background:#ffffff;
+	width:1024px;
+	height:2650px;
+	text-align:center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#biowrap{
+	background:#fff;
+	width:890px;
+	height:600px;
+	font-family: Century Gothic;
+	color:#666;
+	padding: 20px 30px 0px 30px;
+	border-top:2px solid #888;
+	margin:20px auto 0px auto;
+	text-align:justify; 
+	}
+
+#biowrap2{
+	background:#aaa;
+	width:940px;
+	height:300px;
+	font-family: Century Gothic;
+	color:#666;
+	padding: 10px 5px 0px 5px;
+	border-top:2px dotted #888;
+	border-bottom:2px dotted #888;
+	margin:50px auto 0px auto;
+	text-align:center; 
+	
+	border-radius:10px 10px 0px 0px;
+	}
+#biowrap2 a img.profil{opacity:0.8; border-right:2px solid #aaa; border-left:2px solid #aaa; border-radius: 10px 10px 0px 0px;}
+#biowrap2 a img.profil:hover{opacity:1;}
+
+#biowrap3{
+	background:#aaa;
+	width:940px;
+	height:340px;
+	margin:0px auto 0px auto;
+	padding:0px 5px 0px 5px;
+	text-align:center; 
+	
+	border-radius: 0px 0px 10px 10px ;
+	}	
+#biodesc{
+	background:#fff;
+	width:178px;
+	height:300px;
+	font-family: Century Gothic;
+	float:left;
+	color:#666;
+	padding:0px 3px 0px 3px;
+	border-left:2px solid #888;
+	border-right:2px solid #888;
+	border-bottom:2px solid #888;
+	margin:0px auto 0px auto;
+	text-align:center; 
+	}
+#biowrap3 ul li{list-style-type:none; margin-left:-25px;}
+#biowrap3 a span.viewmore {
+	width:110px; 
+	height:20px; 
+	padding:10px; 
+	margin-left: 30px; 
+	margin-right: 28px; 
+	margin-top:-10px; 
+	background:#d71635; 
+	float:left; 
+	font-weight:bold; 
+	color:#ffffff; 
+	text-decoration:none; 
+	font-family:Century Gothic;
+	
+	transition: background 0.4s;
+	border-radius:5px 5px 5px 5px;
+	}
+#biowrap3 a span.viewmore:hover{color:#d71635; background:#eaeaea;}
+/* ################################ End Of Bio.html ################################ */
+
+/* ################################ Fans.html ################################ */
+h2.fansjudul{font-family:HeroicR; font-size: 60px; color:#777; border-bottom:2px solid #888; text-align:center; margin-bottom:20;}
+#fanscontent
+{
+	width:100%;
+	height:1900px;
+	background:#fff url('../img/bgdark.jpg');
+	z-index:1;
+}
+
+#wrapperfans
+{
+	background:#ffffff;
+	width:1024px;
+	height:1900px;
+	text-align:center;
+	margin-right: auto;
+	margin-left: auto;
+}
+#fanswrap{
+	background:#fff;
+	width:900px;
+	height:760px;
+	font-family: Century Gothic;
+	color:#444;
+	padding: 10px 20px 0px 20px;
+	border-top:2px dotted #888;
+	border-bottom:2px dotted #888;
+	margin:50px auto 0px auto;
+	text-align:justify; 
+	
+	}
+#fanswrap p.opa img{opacity:0.9}
+#fanswrap p.opa img:hover{opacity:1}
+/* ################################ End of Fans.html ################################ */
+
+/* ################################ Shop.html ################################ */
+h2.fansjudul{width:920px; font-family:Heroic, Arial Black; font-size: 40px; color:#444; border-bottom:2px solid #888; text-align:left; margin-left:50; margin-bottom:20;}
+
+#shopcontent
+{
+	width:100%;
+	height:2200px;
+	background:#fff url('../img/bgdark.jpg');
+	z-index:1;
+}
+
+#wrappershop
+{
+	background:#ffffff;
+	width:1024px;
+	height:2200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#shopwrap{
+	background:#fff;
+	padding-left:30px;
+	width:920px;
+	height:420px;
+	padding:20px 0px 20px 0px;
+	border-bottom:2px solid #888;
+	margin:0px auto 0px auto;
+	text-align:left; 
+	}
+	
+#shopitem{
+	width:270px;
+	height:390px;
+	background:#fff;
+	margin:0px 10px 0px 20px;
+	text-align:center;
+	font-size:17px;
+	font-family:Century Gothic;
+	float:left;
+	}
+#shopitem a span.viewmore {
+	width:110px; 
+	height:20px; 
+	padding:10px; 
+	margin-left: 70px;  
+	margin-top:-10px; 
+	background:#d71635; 
+	float:left; 
+	font-weight:bold; 
+	color:#ffffff; 
+	text-decoration:none; 
+	font-family:Century Gothic;
+	
+	transition: background 0.4s;
+	border-radius:5px 5px 5px 5px;
+	}
+#shopitem a span.viewmore:hover{color:#d71635; background:#eaeaea;}
+
+#shoppage
+{
+	width: 700px;
+	height:50px;
+	padding-right:20px;
+	margin-top:10px;
+	margin-right:20px;
+	text-align:right;
+	float:right;
+	font-family:Century Gothic;
+}	
+#shoppage a{color:#d71635;}
+#shoppage a:hover{color:#3a3a3a; text-decoration:overline;}
+/* ################################ End of Shop.html ################################ */ 
+
+/* ################################ Contact.html ################################ */
+h2.kontakjudul{font-family:HeroicR; font-size: 60px; color:#888; border-bottom:2px solid #888; text-align:center; margin-bottom:0;}
+#kontakcontent
+{
+	width:100%;
+	height:1500px;
+	text-align:center;
+	background:#fff url('../img/bgdark.jpg');
+	z-index:1;
+}
+
+#divkontak{
+	width:70%;
+	height:180px;
+	margin:50 auto 20 auto;
+	background:#4a4a4a;
+	text-align:center;
+	border-top:20px solid #d71635;
+	}
+a #tombolkontak{
+	width:70%;
+	height:60px;
+	margin:30 auto 0 auto;
+	background:#f7f7f7;
+	text-align:center;
+	padding:30px 0 0 0;
+	font-size:25px;
+	
+	transition:0.5s;
+	border-radius:20px;
+	}
+a #tombolkontak:hover{background:#999; color:#fff;}
+
+#wrapperkontak
+{
+	background:#ffffff;
+	width:1024px;
+	height:1500px;
+	border-bottom:2px solid #666;
+	margin-right: auto;
+	margin-left: auto;
+	font-family:Century Gothic;
+}
+#wrapperkontak a{font-family:Century Gothic; color:#d71635; text-decoration:none;}
+#wrapperkontak a:hover{color:#d17635;}
+#wrapperkontak h3{color:#555;}
+#wrapperkontak img.foto{margin-top:50px; opacity:0.8; border-radius: 20px 20px 20px 20px; box-shadow: 0px 0px 5px #3a3a3a;}
+#wrapperkontak img.foto:hover{opacity:0.9}
+#wrapperkontak p {margin-top:50px;}
+
+#form{
+	width:800px;
+	height:650px;
+	text-align:left;
+	margin: 50 auto 0 auto;
+	padding:50 0 0 20;
+	border-top:20px solid #d71635;
+	border-bottom:10px solid #4a4a4a;
+	}
+#form ul{list-style-type:none}
+#form ul li{margin: 20 0 20 0}
+#form textarea{
+	width:700px;
+	height:200px;
+	}
+	
+#form input.submit{
+	width:100px;
+	height:40px;
+	background:#3a3a3a;
+	font-size:18px;
+	color:#d71635;
+	border:0;
+	transition:0.3s;
+	border-radius:10px;
+	}
+#form input.submit:hover{background:#bbbbbb; cursor:pointer;}
+/* ################################ End of Contact.html ################################ */
+
+
+/* ################################ Term Of Services ################################ */
+h2.tosjudul{font-family:HeroicR; margin-bottom: 20px; font-size: 60px; color:#888; border-bottom:2px solid #888; text-align:center;}
+#toscontent
+{
+	width:100%;
+	height:1500px;
+	text-align:center;
+	background:#fff url('../img/bgdark.jpg');
+	z-index:1;
+}
+
+#wrappertos
+{
+	background:#ffffff;
+	width:884px;
+	padding:20px 70px 20px 70px;
+	height:1450px;
+	border-bottom:2px solid #666;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#wrappertos span{text-align:justify; font-family:Century Gothic;}
+/* ################################ End of TOS.html ################################ */
+
+
+/* ################################ Policy.html ################################ */
+h2.poljudul{font-family:HeroicR; margin-bottom: 20px; font-size: 60px; color:#888; border-bottom:2px solid #888; text-align:center;}
+
+#polcontent
+{
+	width:100%;
+	height:1500px;
+	text-align:center;
+	background:#fff url('../img/bgdark.jpg');
+	z-index:1;
+}
+
+#wrapperpol
+{
+	background:#ffffff;
+	width:884px;
+	padding:20px 70px 20px 70px;
+	height:1450px;
+	border-bottom:2px solid #666;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#wrapperpol span{text-align:justify; font-family:Century Gothic;}
+/* ################################ End of policy.html################################ */
+
+
+/* ################################ Sitemap.html ################################ */
+#wrappersm
+{
+	background:#ffffff;
+	width:884px;
+	padding:20px 70px 20px 90px;
+	height:1450px;
+	border-bottom:2px solid #666;
+	margin-right: auto;
+	margin-left: auto;
+}
+#wrappersm span{text-align:justify; font-family:Century Gothic;}
+
+#wrappersm a{color:#d71635}
+/* ################################ End Of Sitemap.html */
+
+
+/* ################################ FAQ ################################ */
+h2.faqjudul{font-family:HeroicR; margin-bottom: 20px; font-size: 60px; color:#888; border-bottom:2px solid #888; text-align:center;}
+
+#faqcontent
+{
+	width:100%;
+	height:1500px;
+	text-align:center;
+	background:#fff url('../img/bgdark.jpg');
+	z-index:1;
+}
+
+#wrapperfaq
+{
+	background:#ffffff;
+	width:884px;
+	padding:20px 70px 20px 70px;
+	height:1450px;
+	border-bottom:2px solid #666;
+	margin-right: auto;
+	margin-left: auto;
+}
+#wrapperfaq span{text-align:justify; font-family:Century Gothic;}
+
+/* ################################ End of FAQ.html ################################ */
+
+
+/* ################################ End of bio1.html ################################ */
+#bio1content
+{
+	width:100%;
+	background:#d71635;
+	padding:50px 0 0 0;
+	z-index:1;
+}
+#bio1content img.gambar{width:300px; height:400px; float:left}
+#bio1content h2.bionama{
+	font-family:Century Gothic, Arial;
+	font-size:25px;
+	color:#ffffff;
+	float:left;
+	margin-top:150px;
+	
+	transition:0.5s;
+	-webkit-transform:rotate(-90deg);
+	-o-transform:rotate(-90deg);
+	transform:rotate(-90deg);
+	}
+#bio1content h2.bionama:hover{color:#d71635; cursor:pointer;}
+
+#bio1desc{
+	width:420px;
+	height:340px;
+	background:#3a3a3a;
+	margin-left:50px;
+	float:right;
+	color:#3a3a3a;
+	padding: 20px;
+	border-top:20px solid #d71635;
+	font-family:Century Gothic;
+	
+	transition:0.8s;
+	}
+#bio1desc:hover{background:#f7f7f7;}
+
+#bio1desc a{color:#3a3a3a;}
+#bio1desc a:hover{color:#d71635;}
+
+#bio1desc a img.soc{float:left; width:50px;}
+
+#bio1desc h3.soc{color:#f7f7f7;}
+
+#wrpbio1out{width:100%; background:#111111; margin-bottom:50px;}
+#wrapperbio1
+{
+	background:#111111;
+	width:1024px;
+	height:400px;
+	text-align:center;
+	padding:50px 0 0 0;
+	margin:0 auto 50px auto;
+}
+
+#wrpbio2out{width:100%; background:#111111; margin-bottom:50px;}
+#wrapperbio2
+{
+	background:#111111;
+	width:1024px;
+	height:400px;
+	text-align:center;
+	padding:50px 0 0px 0;
+	margin:0 auto 50px auto;
+}
+
+#wrpbio3out{width:100%; background:#111111; margin-bottom:50px;}
+#wrapperbio3
+{
+	background:#111111;
+	width:1024px;
+	height:400px;
+	text-align:center;
+	padding:50px 0 0px 0;
+	margin:0 auto 50px auto;
+}
+
+#wrpbio4out{width:100%; background:#111111;}
+#wrapperbio4
+{
+	background:#111111;
+	width:1024px;
+	height:400px;
+	text-align:center;
+	padding:50px 0 0px 0;
+	margin:0 auto 50px auto;
+}
+
+#wrpbio5out{width:100%; background:#111111; margin-top:50px;}
+#wrapperbio5
+{
+	background:#111111;
+	width:1024px;
+	height:400px;
+	text-align:center;
+	padding:50px 0 0px 0;
+	margin:0 auto 50 auto;
+}
+
+/* ################################ End of bio1.html ################################ */

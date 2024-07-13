@@ -1,0 +1,444 @@
+*{
+	margin : 0;
+	padding :0;
+}
+
+body
+{
+	min-width:1150px;
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	border:0;
+	background:#eeeeee;
+}
+
+
+/*Navigation Bar */
+ul#menu{padding:0; margin:5px; text-align:center;}
+ul#menu li{padding-top:8px; list-style-type:none; width:auto; display:inline-block; float:right; position:relative;padding-right:15px;}
+ul#menu li  a{font-family:Arial Rounded MT,trebuchet ms; font-size:11pt; text-decoration:none; color:#3a3a3a;padding-top:2px; margin-top:10px; display:block;}
+ul#menu li a:hover{background: transparent; color:#3399FF; transition:background 1s; height:auto;}
+ul#menu li .active{
+	background: blue; 
+	color:#3399FF; 
+	height:2px;
+}
+
+
+/* Body */
+#bhead
+{
+	width:100%;
+	height:30px;
+	background:black;
+	padding-top:5px;
+	padding-bottom:10px;
+	position:relative;
+}
+
+
+#topwrap{
+	width:1024px;
+	margin:auto;
+	}
+
+/*pengaturan icon*/
+.topicon{float:right;}
+.top-icon{opacity:0.5;}
+.top-icon:hover{opacity:1;}
+
+#fhead
+{
+	width:100%;
+	height:80px;
+	background:#ffffff;
+	font-family:Calibri;
+	padding:10px 0 0 0;
+	font-weight:bold;
+}
+
+#navwrap{
+	width:1024px;
+	margin:auto;
+	
+	}
+
+.forlogo{float:left; width:250; height:60;}
+
+#slideshow
+{
+	width:100%;
+	height:410px;
+	background:#000;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:0px;
+	text-align:center;
+}
+
+#blackline{width:100%;height:50px;background:#fff;z-index:2;}
+.loginmad{
+	width:1024px;
+	height:auto;
+	padding-top:10px;
+	color:blue;
+	margin:0 auto;
+	font-family:arial rounthed mt;
+	font-size:1.2em;
+}
+.loginmad a{
+	text-decoration:none;
+	color:black;
+}
+.loginmad a:hover{
+	color:blue;
+}
+	
+/*content*/
+
+#cover{
+	width:100%;
+	margin: 0 ;
+	background:white;
+}
+
+#content {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	height: 1000px;
+	margin:0 auto 0 auto;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;	
+	width: 1000px;
+}
+/*content berita*/
+
+#berita{
+	width:700px;
+	height:950px;
+	float:left;
+}
+.fontstyle{font-family:Arial;font-size:16pt;color;black;}
+.fontstyle1{
+	padding-top:20px;
+	margin:0;
+	height:40px;
+}
+/*iklan kanan*/
+#rightiklan{
+	width:300px;
+	height:900px;
+	float:right;
+/*--------------*/
+}
+.berita1{
+	margin-top: 20px;
+	background:yellow;
+	width: 680px;
+	height: 500px;
+	margin: 0 auto 20 0;
+	border:1.5px solid #E6E6E6;
+	border-top-color:#0255A5;
+	background:#ffffff;
+}
+.berita1 img{
+	width:680px;
+	height:250px;
+}
+#contentberita1{
+	width:640px;height:220px;margin:0 auto;
+}
+.berita1judul{
+	font-family:Arial Rounded MT;font-size:12pt;width:100%;height:auto;color:#999999;padding:10 0 10 0;
+}
+.berita1a{	
+	width:100%;height:auto;color:#333333;font-family:arial;font-size:0.8em;
+}
+.beritalanjut{
+	width:100%;height:auto;background:white;font-family:arial;color:#858585;font-size:0.6em;padding-top:10px;
+}
+#lanjutbaca{
+	width:100%;height:25px;background:#f0f0f0;font-family:verdana;color:blue;font-size:0.6em;text-align:right;padding-top:5px;
+}
+#lanjutbaca a{text-decoration:none;}
+.opacityberita1{opacity:1;color:blue;}
+.opacityberita1:hover{opacity:0.5;color:blue;}
+#berita2{
+	width: 680px;
+	height: 330px;
+	margin: 5 auto 20 0;
+}
+/*berita 2a*/
+.berita2a{
+	width: 330px;
+	height: 330px;
+	float:left;
+	margin: 0;
+	border:1px solid #E6E6E6;
+	border-top-color:#0255A5;
+	background:#ffffff;
+}
+.berita2a img{
+	width:330px;height:130px;
+}
+#contentberita2a{
+	width:300px;height:170px;margin:0 auto;
+}
+.berita2ajudul{
+	width:100%;height:15px;font-family:Arial Rounded MT;font-size:10pt;padding:10 0 10 0;color:#999999;
+}
+#berita2a{	
+	width:300px;height:auto;font-family:arial;font-size:0.6em;
+}
+
+
+/*berita 2b*/
+.berita2b{
+	width:330px;
+	height: 300px;
+	margin: 0;
+	border:1px solid #EEEEEE;
+	border-top-color:#0255A5;
+	background:#ffffff;
+	float:right;
+}
+.berita2b img{
+	width:330px;height:100px;
+}
+#contentberita2b{
+	width:300px;height:175px;margin:0 auto;
+}
+.berita2bjudul{
+	width:100%;height:15px;font-family:Arial Rounded MT;font-size:10pt;padding:5 0 5 0;color:#999999;
+}
+#berita2b{	
+	width:300px;height:auto;font-family:arial;font-size:0.5em;
+}
+#lanjutbaca2b{
+	width:100%;height:20px;background:#f0f0f0;font-family:verdana;color:blue;font-size:0.5em;text-align:right;padding-top:5px;
+}
+#lanjutbaca2b a{text-decoration:none;}
+
+/*content sponsor*/
+
+.spr{
+	width:100%;
+	height:150px;
+	margin:10 0 20 0;
+}
+.spr1{
+	width:100%;
+	background:#d0d0d0;
+	margin:0 0 20 0;
+}
+.spr2{
+	width:100%;
+	background:#d0d0d0;
+	margin:0 0 10 0;
+}
+
+/*sponsor Adidas gif*/
+.sponsor{
+	width:100%;
+	height:107px;
+	background:black;
+}
+.sprimg{
+	margin-left:auto;
+	margin-right:auto;
+	width:1000px;
+	height:107px;
+	background:red;
+}
+
+/*squad*/
+#squad {
+    width: 100%;
+    height: 400px;
+    margin: 0px auto;
+    background: none repeat scroll 0% 0% #1E1E1E;
+    color: #FFF;
+    text-align: center;
+    position: relative;
+	z-index:1;
+}
+/*platers in squad*/
+#players{
+	width:1000px;height:400px;margin:0 auto;background:url('../fotovideo/rm_logo_headers.png') no-repeat;background-position:center;
+}
+#team{
+	width:100%;height:30px;font-family:arial;font-size:16pt;padding:5 0 5 0;color:white;text-align:left;
+}
+/*guestbook*/
+#guestbookhover
+{
+	display:scroll; 
+	position:fixed; 
+	bottom:220px;
+	right:0px;
+	z-index:999;
+}
+#guestbookhover a.linkopacity{
+	margin-left: 7.5em; 
+	margin-right: -5.5em; 
+	border:2px; 
+	-o-transition : margin 0.6s; 
+	-ms-transition: margin 0.6s;  
+	-webkit-transition:margin 0.6s;  
+	transition:margin 0.6s;
+		
+	}	
+#guestbookhover a.linkopacity:hover{margin-left: 1em; margin-right: -0.2em;}
+/*Footer*/
+
+#wrapperfooter
+{
+    background:black;
+    bottom: 0px;
+    height: 60px;
+    left: 0px;
+    position: relative;
+    width: 100%;
+	color:white;
+	padding-top:10px
+}
+
+#wrapperfooter p{text-align:center;}
+
+#wrapperfooter a{color:#888; font-family:Myriad Web Pro; text-decoration:none;}
+#wrapperfooter a:hover{color:pink; font-family:Myriad Web Pro;}
+
+#footer
+{
+	width:100%;
+	height:400px;
+	background:#e6e6e6;
+	position:relative;
+	padding-top:20px;
+	padding-bottom:20px;
+	color: #0d0d0;
+	z-index:-9999;
+}
+
+
+/*Footer iklan*/
+
+#logoRM{
+	width:100%;
+	height:40px;
+	background:transparent;
+}
+
+#gbrRM {
+	margin:0 auto 0 auto;
+	padding-bottom:60px;
+	width:40px;
+	background:url('../fotovideo/logoRM.png') no-repeat;
+}
+
+#footeriklan{
+	width:1024px;
+	height:300px;
+	margin:100 auto 20 auto;
+	background:transparent;
+}
+.footer_gold_sponsor{
+	height:150px;
+	position:relative;
+	width:100%;
+	background:transparent;
+}
+
+.footer_gold_sponsor1{
+	margin:2 auto 2 auto;
+	width:450px;
+	position:relative;
+	background:transparent;
+	height:100px;
+}
+.footer_gold_sponsor1 img{
+	padding:0 10 0 10;
+}
+
+.footer_silver_sponsor{
+	height:70px;
+	position:relative;
+	width:100%;
+	background:transparent;
+}
+
+.footer_silver_sponsor1{
+	margin:2 auto 2 auto;
+	width:650px;
+	position:relative;
+	background:transparent;
+	height:100px;
+}
+
+.footer_silver_sponsor1 img{
+	padding:0 15 0 15;
+}
+/*################################ Guestbook.html ################################*/
+#formg{
+	width:800px;
+	height:1000px;
+	font-family:Century Gothic, Arial;
+	text-align:left;
+	padding:50 0 0 20;
+	border-top:20px solid blue;
+	border-bottom:10px solid blue;
+	}
+#formg ul{list-style-type:none}
+#formg ul li{margin: 20 0 20 0}
+#formg textarea{
+	width:700px;
+	height:200px;
+	}
+	
+#formg input.submit{
+	width:100px;
+	height:40px;
+	background:#3a3a3a;
+	font-size:18px;
+	color:white;
+	border:0;
+	transition:0.3s;
+	border-radius:10px;
+	}
+.submit1{
+		width:100px;
+	height:40px;
+	background:#3a3a3a;
+	font-size:18px;
+	color:white;
+	border:0;
+	border-radius:10px;
+}
+.submit1:hover{
+	background:#bbbbbb; cursor:pointer;
+}
+#form input.submit:hover{background:#bbbbbb; cursor:pointer;}
+/* ################################ End Guestbook.html ################################ */
+.bannertour{
+	height:350px;width:100%;background:#f0f0f0;
+	border-bottom:1px solid #dcdcdc;
+	padding-top:50px;
+}
+.tempatfotonav{
+	height:300px;width:1024px;
+	margin:0 auto;
+	padding-left:50px;
+}
+.tempatfotonav img{
+	padding-right:20px;
+	height:300px;
+	width:300px;
+}
+.tempatfotonav a  img:hover{
+	opacity:0.6;
+}
